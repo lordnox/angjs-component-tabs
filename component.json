@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "lordnox/angjs-component-base": "*",
+    "lordnox/angjs-component-base": "*"
   },
   "development": {},
   "license": "MIT",
