@@ -16,16 +16,16 @@ app.directive('tabs', function() {
           pane.selected = false;
         });
         pane.selected = true;
-      }
+      };
 
       this.addPane = function(pane) {
-        if (panes.length == 0) $scope.select(pane);
+        if (panes.length === 0) $scope.select(pane);
         panes.push(pane);
-      }
-    },
+      };
+    }],
     template:template,
     replace: true
-  }];
+  };
 });
 
 module.exports        = name;

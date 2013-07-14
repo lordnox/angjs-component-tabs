@@ -1,6 +1,5 @@
 
 build: components index.js angjs-component-tabs.css template.js
-	@component convet template.html
 	@component build --dev
 
 template.js: template.html
