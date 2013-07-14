@@ -1,0 +1,20 @@
+{
+  "name": "angjs-component-tabs",
+  "repo": "lordnox/angjs-component-tabs",
+  "description": "the tabs component from the angularjs homepage",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "lordnox/angjs-component-base": "*",
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "angjs-component-tabs.css"
+  ]
+}
