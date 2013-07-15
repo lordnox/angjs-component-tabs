@@ -14,7 +14,5 @@
     "index.js",
     "template.js"
   ],
-  "styles": [
-    "angjs-component-tabs.css"
-  ]
+  "styles": []
 }

@@ -1,7 +1,7 @@
 
-var app       = require('angjs-component-base').module;
+var app       = require('angjs-component-base');
 var name      = 'angjs-component-tabs';
-var template  = require('template');
+var template  = require('./template.js');
 
 app.directive('tabs', function() {
   return {
@@ -28,5 +28,4 @@ app.directive('tabs', function() {
   };
 });
 
-module.exports        = name;
-module.exports.module = app;
+module.exports      = app;
